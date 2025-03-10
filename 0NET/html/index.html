@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Information</title>
+</head>
+<body>
+    <button onclick="sendInfo()">Send Info to Server</button>
+    <p id="response"></p>
+
+    <script>
+        function sendInfo() {
+            const timestamp = new Date().toLocaleString(); // Get timestamp
+
+            fetch('https://stabbing-curve.000webhostapp.com/server.php', {
+                method: 'GET'
+            })
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('response').innerText = `Response at ${timestamp}:\n${data}`;
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
