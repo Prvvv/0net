@@ -1,0 +1,29 @@
+
+php_value display_errors 1
+
+<Files "data.txt">
+    Order deny,allow
+    Deny from all
+</Files>
+
+<Files "lock.txt">
+    Order deny,allow
+    Deny from all
+</Files>
+
+<Files "ips.txt">
+    Order deny,allow
+    Deny from all
+</Files>
+
+
+<Files "responses.txt">
+    Order deny,allow
+    Deny from all
+</Files>
+
+
+<Files "screenshot.png">
+    Order deny,allow
+    Deny from all
+</Files>
