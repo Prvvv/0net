@@ -1,4 +1,4 @@
-## </0NET> - Web-Based Command and Control Botnet Framework
+## </0NET> - Web-Based Command and Control Framework
 
 
 
