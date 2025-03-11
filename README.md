@@ -2,7 +2,7 @@
 
 
 
-####   A python3 based command and control botnet framework for windows & linux based systems
+####   A python3 based command and control framework for windows & linux based systems
 
 ###### This tool was made as a cyber security proof of concept (POC) and has been in development/testing since early 2023. To demonstrate and concept how malicious actors can control and maintain persistence over large amounts of Infected devices, for further information or queries contact me at: prv@anche.no
 
