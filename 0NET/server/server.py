@@ -14,7 +14,7 @@ from sys import platform
 try:
     import socks
 except:
-    os.system("pip3 install PySocks")
+    os.system("pip install PySocks --break-system-packages")
 
 
 ############################################################################################################################################################################
