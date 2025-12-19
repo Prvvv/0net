@@ -702,7 +702,7 @@ while True:
             import PyInstaller
         except:
             os.system("py -m pip install PyInstaller")
-            os.system("pip install PyInstaller")
+            os.system("pip install PyInstaller --break-system-packages")
 
         print("\n[%]Generating Payload File")
 
